@@ -8,3 +8,10 @@ import "../style/index.scss";
 window.onload = function() {
   console.log("Hello Rigo from the console!");
 };
+
+let generator =>{
+    let suite = [ Hearts, Spades, Clubs, Diamonds]
+    let value = [1,2,3,4,5,6,7,8,9,10,King,Queen,Jack,Ace]
+}
+
+

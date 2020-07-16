@@ -14,3 +14,18 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.card.spade::before,
+.card.spade::after{
+
+    content: "/2660";
+    color: black;
+}
+
+.card::before{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.card::after
